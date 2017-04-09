@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AutoDict</string>
+    <string name="etq_botonDictado">Dictation</string>
+    <string name="etq_botonVocabulario">Vocabulary</string>
+    <string name="etq_botonSinnombre">sinNombre</string>
+    <string name="etq_radioBotonSigno">Signo de puntuación</string>
+    <string name="etq_radioBotonParrafo">Parrafo</string>
+    <string name="etq_radioBotonPersonalizado">Personalizado</string>
+    <string name="etq_botonGuardar">Siguiente</string>
+    <string name="etq_botonAyuda">Help</string>
+    <string name="etq_botonAnterior">Back</string>
+    <string name="etq_botonReproducir">Play</string>
+    <string name="etq_botonSiguiente">Next</string>
+    <string name="etq_botonIncongnito">\?\?\?</string>
+    <string name="etq_botonComparar">Comparar</string>
+    <string name="etq_jugar">Jugar</string>
+    <string name="etq_insertarPalabra">Insertar palabras</string>
+
+    <string name="title_activity_ingresar_palabra">IngresarPalabra</string>
+    <string name="title_activity_consultar_palara">ConsultarPalara</string>
+    <string name="name_button_insert">Insert a word</string>
+    <string name="name_button_play">Jugar</string>
+    <string name="label_verb_infinitive">Infinitive</string>
+    <string name="lable_verb_simple">Past Simple</string>
+    <string name="label_verb_participle">Past participle</string>
+    <string name="name_button_save">Save</string>
+    <string name="volver">Volver</string>
+    <string name="lableSig">Siguiente</string>
+    <string name="validar">Validar</string>
+    <string name="etq_boton_verbos">Verbos</string>
+</resources>

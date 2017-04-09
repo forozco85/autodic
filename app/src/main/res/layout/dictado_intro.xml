@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DictadoIntro"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:height="200dp"
+        android:scrollbars="vertical"
+        android:ems="10"
+        android:id="@+id/editText1" />
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioSigPuntua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/etq_radioBotonSigno"/>
+        <RadioButton
+            android:id="@+id/radioParrafos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/etq_radioBotonParrafo"/>
+        <RadioButton
+            android:id="@+id/radioPersonalizado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/etq_radioBotonPersonalizado"/>
+        <EditText
+            android:id="@+id/campoEntradaDivisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            />
+        <Button
+            android:id="@+id/botonGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/etq_botonGuardar"
+            android:onClick="lanzarActividadDictadoJuego"/>
+
+    </RadioGroup>
+</LinearLayout>
